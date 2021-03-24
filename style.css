@@ -45,6 +45,8 @@ h3{
 	border: 1px dotted gray;
 }
 .sub-heading > i{
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin-left: 10px;
 	margin-right: 10px;
 	color:#c8c6a7;
@@ -71,7 +73,9 @@ small>i{
 	color: #9fb8ad;
 }
 .go{
-	width: 2em;
+	margin-left: 10px;
+	margin-right: 5px;
+	width: 0.8em;
 }
 .flutter{
 	width:1em;
