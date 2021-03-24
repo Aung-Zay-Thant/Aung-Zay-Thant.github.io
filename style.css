@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	overflow-x: hidden;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	overflow-y:scroll; 
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #435560;
+	width: 40vw;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 6px 1px #cdd9f4;
+}
+img{
+	width: 200px;
+	border-radius: 50%;
+}
+h1{
+	color:#c8c6a7;;
+}
+h3{
+	color:#9fb8ad;
+}
+.sub-heading{
+	display: flex;
+	align-items: center;
+	font-size:1.5rem;
+	line-height: 2rem;
+	margin-bottom: 20px;
+	border: 1px dotted gray;
+}
+.sub-heading > i{
+	margin-left: 10px;
+	margin-right: 10px;
+	color:#c8c6a7;
+}
+.fb-github > i{
+	color:#8ac4d0;
+}
+i{
+	color: #191e1e;
+}
+a{
+	text-decoration: none;
+	color:#c8c6a7;
+	padding-right: 10px;
+}
+a:visited{
+	color:#c8c6a7;
+}
+small{
+	color:#9fb8ad;
+}
+small>i{
+	margin-top: 20px;
+	color: #9fb8ad;
+}
+.go{
+	width: 2em;
+}
+.flutter{
+	width:1em;
+}
+.dart{
+	width:1em;
+	margin-right: 10px;
+}
+@media screen and (max-width: 39em) {
+	.content{
+		width:90vw;
+	}
+}
